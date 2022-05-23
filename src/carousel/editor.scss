@@ -1,0 +1,14 @@
+/*
+* Style Works for Editor Only
+*/
+.wp-block-lcb-logo-carousel {
+	&.alcb__active_pagination {
+		padding: 0 30px !important;
+		.swiper {
+			padding: 40px 30px !important;
+		}
+	}
+	.swiper {
+		padding: 0 30px !important;
+	}
+}

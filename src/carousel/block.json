@@ -1,0 +1,140 @@
+{
+	"apiVersion": 2,
+	"name": "lcb/logo-carousel",
+	"version": "0.1.0",
+	"title": "Logo Carousel",
+	"category": "logo-blocks",
+	"description": "Shows clients logos in a carousel",
+	"supports": {
+		"html": false
+	},
+	"keywords": ["logo", "carousel", "logo carousel", "logo slider"],
+	"attributes": {
+		"sliderId": {
+			"type": "string"
+		},
+		"images": {
+			"type": "array"
+		},
+		"loop": {
+			"type": "boolean",
+			"default": true
+		},
+		"autoplay": {
+			"type": "boolean",
+			"default": true
+		},
+		"reverseAutoplayDirection": {
+			"type": "boolean",
+			"default": false
+		},
+		"speed": {
+			"type": "number",
+			"default": 400
+		},
+		"autoplayDelay": {
+			"type": "number",
+			"default": 2000
+		},
+		"pauseOnHover": {
+			"type": "boolean",
+			"default": true
+		},
+		"keyboard": {
+			"type": "boolean",
+			"default": false
+		},
+		"mousewheel": {
+			"type": "boolean",
+			"default": false
+		},
+		"autoHeight": {
+			"type": "boolean",
+			"default": false
+		},
+		"slideDirection": {
+			"type": "string",
+			"default": "ltr"
+		},
+		"showNav": {
+			"type": "boolean",
+			"default": true
+		},
+		"showPagination": {
+			"type": "boolean",
+			"default": true
+		},
+		"itemDevice": {
+			"type": "string",
+			"default": "desktop"
+		},
+		"deskItemsPerView": {
+			"type": "number",
+			"default": 4
+		},
+		"tabItemsPerView": {
+			"type": "number",
+			"default": 2
+		},
+		"phoneItemsPerView": {
+			"type": "number",
+			"default": 1
+		},
+		"spaceDevice": {
+			"type": "string",
+			"default": "desktop"
+		},
+		"deskSpace": {
+			"type": "number",
+			"default": 30
+		},
+		"tabSpace": {
+			"type": "number",
+			"default": 20
+		},
+		"phoneSpace": {
+			"type": "number",
+			"default": 10
+		},
+		"showCaption": {
+			"type": "boolean",
+			"default": false
+		},
+		"captionVisibility": {
+			"type": "string",
+			"default": "caption__hover"
+		},
+		"captionBg": {
+			"type": "string",
+			"default": "#333333"
+		},
+		"captionColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"borderWidth": {
+			"type": "string",
+			"default": "0"
+		},
+		"borderColor": {
+			"type": "string",
+			"default": "#333333"
+		},
+		"borderStyle": {
+			"type": "string",
+			"default": "solid"
+		},
+		"borderRadius": {
+			"type": "number",
+			"default": 0
+		},
+		"logoHoverStyle": {
+			"type": "string",
+			"default": "none"
+		}
+	},
+	"textdomain": "awesome-logo-carousel-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
